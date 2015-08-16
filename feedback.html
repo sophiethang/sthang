@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Sophie Thang 212402994 -->
+		<title>The Restaurant</title>
+		<meta charset="utf-8" />
+        
+        <link rel="stylesheet" href="themes/theme.css" />
+  		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="../jquery.mobile-1.0.min.css" />
+		<script type="text/javascript" src="../jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="../jquery.mobile-1.0.min.js"></script>
+    
+	</head>
+    
+    
+	<body>
+
+			<!-- begin feedback page -->
+				<div data-role="page" id="feedback" data-theme="d">	
+					<div data-role="header">
+						<h1>The Restaurant</h1>
+							
+						<!-- display navigation bar -->
+							<div data-role="navbar">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="menu.html">Menu</a></li>
+									<li><a href="recipes.html">Recipes</a></li>
+									<li><a href="findus.html">Where to find us</a></li>
+									<li><a href="feedback.html" class="ui-btn-active">Feedback</a></li>
+									<li><a href="developer.html">Developer</a></li>
+								</ul>
+							</div>
+
+					</div>
+						
+					<!-- display content -->
+						<div data-role="main" class="ui-content">
+							<center><h1>Feedback</h1>
+								<p>Please leave us some feedback!</p></center>
+							
+						<!-- display feedback form with placeholders so customers know what to put in -->
+							<form>
+								<label for="name">Customer Name:</label>
+								<textarea name="name" id="name" placeholder="Please tell us your full name."></textarea>
+								<label for="contact">Contact Information:</label>
+								<textarea name="contact" id="contact" placeholder="Leave us a number or email so we can get back to you."></textarea>
+								<label for="feedback">Feedback:</label>
+								<textarea name="feedback" id="feedback" placeholder="Tell us what you think."></textarea>
+								<input type="submit" value="Submit"/>
+							</form>
+						</div>
+					
+				<!-- display footer -->
+					<div data-role="footer">
+						<h2>&copy; Sophie Thang 2015</h2>
+					</div>
+				</div>
+			<!-- end feedback page -->
+
+	</body>
+</html>
